@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.toolbar {
+  background: #FF5266;
+}
+
+.leftbox {
+  align-self: flex-start;
+  display: flex;
+}
+
+.rightbox {
+  align-self: flex-end;
+  display: flex;
+}
+
+.leftText {
+  text-align: right;
+  padding-right: 30px;
+  font-size: large;
+  border: 1px transparent;
+  border-radius: 24px;
+  background-color: #518BE8;
+  color: white;
+  margin-left: 10px;
+}
+
+.rightText {
+  text-align: right;
+  padding-right: 30px;
+  font-size: large;
+  border: 1px transparent;
+  border-radius: 24px;
+  background-color: #518BE8;
+  color: white;
+  margin-right: 10px;
+}
+
+.messageList {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 64px;
+  justify-content: space-evenly;
+}
+
+.thumbsDown {
+  transform: rotate(180deg);
+}
+
+.message {
+  display: flex;
+}
+
+.sendButton {
+  border: 1px transparent;
+  border-radius: 24px;
+  background-color: #FF5266;
+  color: white;
+  padding: 4px;
+  width: 90px;
+  margin-left: 8px;
+}
+
+.textBox {
+  mix-blend-mode: darken;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  width: 274px;
+}
+
+.survey {
+  color: white;
+}
+
+.dropdown {
+  border: none;
+  margin-bottom: 8px;
+  width: 274px;
+}
+
+.leftMessage {
+  align-self: flex-start;
+  display: flex;
+  padding-left: 30px;
+}
+
+.rightMessage {
+  align-self: flex-end;
+  display: flex;
+  padding-right: 30px;
+}
