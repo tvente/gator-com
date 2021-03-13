@@ -1,3 +1,10 @@
+# How to run
+1. Clone the repository using 'git clone https://github.com/tvente/gator-com'.
+2. cd into gator-com
+3. Install the dependencies using 'npm i'
+4. Paste your Google Translate API key into gator-com/src/components/utils/googleTranslate.js.
+5. From gator-com, start using 'npm start'.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
